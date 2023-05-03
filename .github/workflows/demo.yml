@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: coge el codigo del repositorio
         uses: actions/checkout@v3
-      - name:
-        uses:
+      - name: installar NodeJS
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
       - nome: Instalar dependencies
